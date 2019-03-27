@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-config
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            - classpath:/shared/
+  profiles:
+    active:
+      - native
+server:
+  port: 8877
