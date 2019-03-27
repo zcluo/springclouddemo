@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaclient-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/businessservice-user/pom.xml" />
+        <option value="$PROJECT_DIR$/businessservice-user-client-ribbon-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/businessservice-user-client-feign-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/commonservice-config/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
