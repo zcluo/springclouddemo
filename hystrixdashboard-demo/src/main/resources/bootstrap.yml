@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-hystrixdashboard
+server:
+  port: 8889
+
+feign:
+  hystrix:
+    enabled: true

@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/commonservice-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaclient-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrixdashboard-demo" charset="UTF-8" />
   </component>
 </project>

@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
         <module name="businessservice-user-client-ribbon-demo" />
         <module name="commonservice-config" />
-        <module name="businessservice-user" />
+        <module name="eurekaclient-demo" />
         <module name="springcloud-demo" />
         <module name="eurekaserver-demo" />
+        <module name="hystrixdashboard-demo" />
         <module name="businessservice-user-client-feign-demo" />
         <module name="springclouddemo" />
         <module name="businessservice-user-client-ribbon-hystrix-demo" />
-        <module name="eurekaclient-demo" />
+        <module name="businessservice-user" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,8 +27,10 @@
       <module name="businessservice-user-client-ribbon-demo" options="-parameters" />
       <module name="businessservice-user-client-ribbon-hystrix-demo" options="-parameters" />
       <module name="commonservice-config" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="eurekaclient-demo" options="-parameters" />
       <module name="eurekaserver-demo" options="-parameters" />
+      <module name="hystrixdashboard-demo" options="-parameters" />
     </option>
   </component>
 </project>

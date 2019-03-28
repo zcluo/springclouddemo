@@ -13,7 +13,6 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableHystrix
-@EnableHystrixDashboard
 public class BusinessserviceUserClientRibbonHystrixDemoApplication {
 
   public static void main(String[] args) {
