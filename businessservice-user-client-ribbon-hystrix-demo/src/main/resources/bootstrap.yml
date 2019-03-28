@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-user-client-ribbon-hystrix
+server:
+  port: 8701
+
+# 端点管理 hystrixDashboard
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

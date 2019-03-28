@@ -1,6 +1,7 @@
 package info.vpswiki.businessserviceuser.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,9 +11,13 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@RefreshScope
 public class UserManagementController {
     @Value("${server.port}")
     String serverPort;
+
+    @Value("${server.time}")
+    String testValue;
 
     /*
      * @Author zcluo
@@ -33,6 +38,11 @@ public class UserManagementController {
             users.add(user);
         }
         return "服务器端口号：   " + serverPort + "   |   用户信息：   " + users.toString();
+    }
+
+    @GetMapping("/getTestValue")
+    public String getTestValue(){
+        return testValue;
     }
 
 }
