@@ -7,4 +7,5 @@ spring:
         enabled: true
         service-id: service-config
       profile: dev1
-      label: slave
+      label: master
+      uri: http://localhost:8877

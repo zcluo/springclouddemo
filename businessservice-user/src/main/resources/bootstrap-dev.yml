@@ -8,4 +8,5 @@ spring:
         service-id: service-config
       profile: dev
       label: master
+      uri: http://localhost:8877
 

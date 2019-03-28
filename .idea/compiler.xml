@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="businessservice-user" />
-        <module name="businessservice-user-client-feign-demo" />
         <module name="businessservice-user-client-ribbon-demo" />
         <module name="commonservice-config" />
-        <module name="eurekaclient-demo" />
-        <module name="eurekaserver-demo" />
+        <module name="businessservice-user" />
         <module name="springcloud-demo" />
+        <module name="eurekaserver-demo" />
+        <module name="businessservice-user-client-feign-demo" />
         <module name="springclouddemo" />
+        <module name="eurekaclient-demo" />
       </profile>
     </annotationProcessing>
   </component>
