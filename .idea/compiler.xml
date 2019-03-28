@@ -13,6 +13,7 @@
         <module name="eurekaserver-demo" />
         <module name="businessservice-user-client-feign-demo" />
         <module name="springclouddemo" />
+        <module name="businessservice-user-client-ribbon-hystrix-demo" />
         <module name="eurekaclient-demo" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="businessservice-user" options="-parameters" />
       <module name="businessservice-user-client-feign-demo" options="-parameters" />
       <module name="businessservice-user-client-ribbon-demo" options="-parameters" />
+      <module name="businessservice-user-client-ribbon-hystrix-demo" options="-parameters" />
       <module name="commonservice-config" options="-parameters" />
       <module name="eurekaclient-demo" options="-parameters" />
       <module name="eurekaserver-demo" options="-parameters" />
