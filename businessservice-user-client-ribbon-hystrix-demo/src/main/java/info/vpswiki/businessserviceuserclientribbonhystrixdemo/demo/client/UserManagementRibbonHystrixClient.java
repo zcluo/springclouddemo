@@ -27,10 +27,10 @@ public class UserManagementRibbonHystrixClient {
     @GetMapping("/listUsersByRibbonHystrix")
     @HystrixCommand(commandProperties = {
             @HystrixProperty(name = "circuitBreaker.enabled", value = "true"),  // 启动熔断
-            //@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000"),
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000"),
             @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "10"),
             @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "10000"),
-            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "60")},fallbackMethod="listUsersByRibbonFallback")
+            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "20")},fallbackMethod="listUsersByRibbonFallback")
     public String listUsersByRibbon(){
         String result = this.restTemplate.getForObject("http://service-user/listUsers", String.class);
         return result;

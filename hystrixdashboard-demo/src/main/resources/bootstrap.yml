@@ -2,7 +2,7 @@ spring:
   application:
     name: eureka-hystrixdashboard
 server:
-  port: 8889
+  port: 8869
 
 feign:
   hystrix:

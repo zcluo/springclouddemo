@@ -30,14 +30,21 @@ public class UserManagementController {
     public String ListUsers()
     {
 
-        List<Map<String, Object>> users = new ArrayList<Map<String, Object>>();
-        for(int i=1; i< 5; i++){
-            Map<String, Object> user = new HashMap<String, Object>();
-            user.put("id", i);
-            user.put("name", "小明" + i);
-            users.add(user);
+
+        try {
+            Thread.sleep(200);
+            List<Map<String, Object>> users = new ArrayList<Map<String, Object>>();
+            for(int i=1; i< 5; i++){
+                Map<String, Object> user = new HashMap<String, Object>();
+                user.put("id", i);
+                user.put("name", "小明" + i);
+                users.add(user);
+            }
+            return "服务器端口号：   " + serverPort + "   |   用户信息：   " + users.toString();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-        return "服务器端口号：   " + serverPort + "   |   用户信息：   " + users.toString();
+    return "服务器端口号：   " + serverPort + " Exception occured!";
     }
 
     @GetMapping("/getTestValue")
