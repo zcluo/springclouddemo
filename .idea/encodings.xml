@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/businessservice-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/businessservice-user-client-feign-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessservice-user-client-feign-hystrix-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/businessservice-user-client-feign-hystrix-demo/src/main/resources/bootstrap.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/businessservice-user-client-ribbon-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/businessservice-user-client-ribbon-hystrix-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commonservice-config" charset="UTF-8" />

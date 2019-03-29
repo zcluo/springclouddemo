@@ -9,14 +9,15 @@
         <module name="demo" />
         <module name="businessservice-user-client-ribbon-demo" />
         <module name="commonservice-config" />
-        <module name="eurekaclient-demo" />
-        <module name="springcloud-demo" />
-        <module name="eurekaserver-demo" />
-        <module name="hystrixdashboard-demo" />
-        <module name="businessservice-user-client-feign-demo" />
-        <module name="springclouddemo" />
-        <module name="businessservice-user-client-ribbon-hystrix-demo" />
         <module name="businessservice-user" />
+        <module name="springcloud-demo" />
+        <module name="springclouddemo" />
+        <module name="businessservice-user-client-feign-hystrix-demo" />
+        <module name="hystrixdashboard-demo" />
+        <module name="eurekaserver-demo" />
+        <module name="businessservice-user-client-feign-demo" />
+        <module name="businessservice-user-client-ribbon-hystrix-demo" />
+        <module name="eurekaclient-demo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="businessservice-user" options="-parameters" />
       <module name="businessservice-user-client-feign-demo" options="-parameters" />
+      <module name="businessservice-user-client-feign-hystrix-demo" options="-parameters" />
       <module name="businessservice-user-client-ribbon-demo" options="-parameters" />
       <module name="businessservice-user-client-ribbon-hystrix-demo" options="-parameters" />
       <module name="commonservice-config" options="-parameters" />

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>info.vpswiki</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>businessservice-user-client-feign-hystrix-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>businessservice-user-client-ribbon-hystrix-demo</name>
+    <name>businessservice-user-client-feign-hystrix-demo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -30,14 +30,10 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-<!--
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
-        </dependency>
-        -->
+
+        <!--监控中心-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
