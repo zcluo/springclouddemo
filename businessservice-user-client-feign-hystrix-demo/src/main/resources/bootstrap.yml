@@ -23,7 +23,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10000
+            timeoutInMilliseconds: 1000
       circuitBreaker:
         requestVolumeThreshold: 10
         sleepWindowInMilliseconds: 10000
