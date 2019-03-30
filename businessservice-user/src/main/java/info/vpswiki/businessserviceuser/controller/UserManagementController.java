@@ -32,7 +32,7 @@ public class UserManagementController {
 
 
         try {
-            Thread.sleep(200);
+            Thread.sleep(500);
             List<Map<String, Object>> users = new ArrayList<Map<String, Object>>();
             for(int i=1; i< 5; i++){
                 Map<String, Object> user = new HashMap<String, Object>();
