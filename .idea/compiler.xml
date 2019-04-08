@@ -9,13 +9,14 @@
         <module name="demo" />
         <module name="businessservice-user-client-ribbon-demo" />
         <module name="commonservice-config" />
+        <module name="commonservice-zuul" />
         <module name="businessservice-user" />
         <module name="springcloud-demo" />
-        <module name="springclouddemo" />
+        <module name="eurekaserver-demo" />
         <module name="businessservice-user-client-feign-hystrix-demo" />
         <module name="hystrixdashboard-demo" />
-        <module name="eurekaserver-demo" />
         <module name="businessservice-user-client-feign-demo" />
+        <module name="springclouddemo" />
         <module name="businessservice-user-client-ribbon-hystrix-demo" />
         <module name="eurekaclient-demo" />
       </profile>
@@ -29,6 +30,7 @@
       <module name="businessservice-user-client-ribbon-demo" options="-parameters" />
       <module name="businessservice-user-client-ribbon-hystrix-demo" options="-parameters" />
       <module name="commonservice-config" options="-parameters" />
+      <module name="commonservice-zuul" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eurekaclient-demo" options="-parameters" />
       <module name="eurekaserver-demo" options="-parameters" />

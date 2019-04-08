@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/businessservice-user-client-ribbon-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/businessservice-user-client-ribbon-hystrix-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commonservice-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonservice-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaclient-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrixdashboard-demo" charset="UTF-8" />

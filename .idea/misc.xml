@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/businessservice-user-client-ribbon-hystrix-demo/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixdashboard-demo/pom.xml" />
         <option value="$PROJECT_DIR$/businessservice-user-client-feign-hystrix-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/commonservice-zuul/pom.xml" />
       </list>
     </option>
   </component>
