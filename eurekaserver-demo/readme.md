@@ -1,5 +1,5 @@
 # 服务发现
-##module 
+## module 
 > eurekaserver-demo
 ## pom.xml
 ```xml
