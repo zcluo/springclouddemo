@@ -1,4 +1,4 @@
-# 服务发现
+# 服务发现客户端
 ## module 
 > eurekaclient-demo
 ## pom.xml
