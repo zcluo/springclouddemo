@@ -1,5 +1,5 @@
 # 服务消费者ribbon
->本章节介绍服务提供者，并介绍与rabbitmq整合动态加载刷新配置变量
+>本章节介绍服务消费者，通过ribbon实现客户端的负载均衡
 ## module 
 > businessservice-user-client-ribbon-demo
 ## pom.xml
