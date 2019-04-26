@@ -82,3 +82,13 @@ public class UserFeignApi {
 }
 
 ```
+
+## bootstrap.yml
+```yaml
+spring:
+  application:
+    name: service-user-client-feign
+server:
+  port: 9001
+
+```
